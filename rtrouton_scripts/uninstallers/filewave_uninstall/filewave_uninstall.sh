@@ -11,12 +11,12 @@
 /bin/rm -rf /var/FileWave/
 /bin/rm -R /usr/local/sbin/FileWave.app
 /bin/rm /usr/local/etc/fwcld.plist
-/bin/rm /sbin/fwcontrol
+/bin/rm /usr/local/bin/fwcontrol
 
 /bin/rm /Library/LaunchAgents/com.filewave.fwGUI.plist
 /bin/rm /Library/LaunchDaemons/com.filewave.fwcld.plist
 /bin/rm /private/var/db/receipts/com.filewave.fwcld.pkg.bom
 /bin/rm /private/var/db/receipts/com.filewave.fwcld.pkg.plist
-/bin/rm /var/log/fwcld*
+/bin/rm -rf /var/log/fwcld*
 
 exit 0
